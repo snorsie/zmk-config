@@ -71,7 +71,16 @@
               &kp ESC             &kp AT_SIGN                    &kp POUND               &kp DLLR          &kp PRCNT    &kp CARET   &kp AMPERSAND     &kp ASTRK         &kp SEMI  &kp BACKSPACE
               &kp TAB       &kp DOUBLE_QUOTES         &kp LEFT_PARENTHESIS         &kp LEFT_BRACE   &kp LEFT_BRACKET    &kp EQUAL        &kp HOME  &kp UP_ARROW          &kp END      &kp ENTER
 &td LC(Z) EXCLAMATION  &td LC(X) SINGLE_QUOTE  &td LC(C) RIGHT_PARENTHESIS  &td LC(V) RIGHT_BRACE  &kp RIGHT_BRACKET    &kp MINUS  &kp LEFT_ARROW      &kp DOWN  &kp RIGHT_ARROW  &kp BACKSLASH
-                                                                                            &to 0             &trans       &trans           &to 2
+                                                                                            &to 0             &trans        &to 2           &to 3
+            >;
+        };
+
+        Arrows {
+            bindings = <
+           &kp ESCAPE  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9       &kp PERCENT    &kp CARET   &kp AMPERSAND    &kp ASTERISK  &kp SEMICOLON  &kp BACKSPACE
+              &kp TAB  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp LEFT_BRACKET    &kp EQUAL        &kp HOME    &kp UP_ARROW        &kp END      &kp ENTER
+&td LC(Z) EXCLAMATION  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3   &kp KP_NUMBER_0    &kp MINUS  &kp LEFT_ARROW  &kp DOWN_ARROW      &kp RIGHT  &kp BACKSLASH
+                                                                   &to 0            &trans        &to 1           &to 3
             >;
         };
 
@@ -79,8 +88,8 @@
             bindings = <
      &kp ESCAPE       &kp E              &kp TILDE    &kp DOLLAR  &kp PERCENT          &kp CARET  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9     &trans
         &kp TAB  &kp PERIOD   &kp LEFT_PARENTHESIS  &kp ASTERISK     &kp PLUS          &kp EQUAL  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ENTER
-&kp EXCLAMATION   &kp COMMA  &kp RIGHT_PARENTHESIS     &kp SLASH    &kp MINUS    &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3      &to 1
-                                                           &to 0       &trans             &trans            &to 3
+&kp EXCLAMATION   &kp COMMA  &kp RIGHT_PARENTHESIS     &kp SLASH    &kp MINUS    &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3      &to 4
+                                                           &to 0       &trans             &trans            &to 1
             >;
         };
 
