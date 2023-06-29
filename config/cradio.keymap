@@ -45,15 +45,24 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        new_combo {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <31 32>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         Alphas {
             bindings = <
-      &kp Q        &kp W        &kp F                 &kp P                    &kp G        &kp J       &kp L                 &kp U   &td MINUS Y   &kp BKSP
-      &kp A        &kp R   &hm LALT S            &hm LGUI T                    &kp D        &kp H  &hm RGUI N            &hm RALT E         &kp I      &kp O
-&td LC(Z) Z  &td LC(X) X  &td LC(C) C           &td LC(V) V                    &kp B        &kp K       &kp M  &td UNDERSCORE COMMA  &td EXCL DOT  &kp SLASH
-                                       &mt LC(LS(LALT)) SPC  &td LEFT_SHIFT CAPSLOCK    &sk RCTRL       &to 1
+      &kp Q        &kp W        &kp F                 &kp P           &kp G        &kp J       &kp L                 &kp U   &td MINUS Y   &kp BKSP
+      &kp A        &kp R   &hm LALT S            &hm LGUI T           &kp D        &kp H  &hm RGUI N            &hm RALT E         &kp I      &kp O
+&td LC(Z) Z  &td LC(X) X  &td LC(C) C           &td LC(V) V           &kp B        &kp K       &kp M  &td UNDERSCORE COMMA  &td EXCL DOT  &kp SLASH
+                                       &mt LC(LS(LALT)) SPC  &kp LEFT_SHIFT    &sk RCTRL       &to 1
             >;
         };
 
