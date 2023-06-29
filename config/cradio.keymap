@@ -50,10 +50,10 @@
 
         Alphas {
             bindings = <
-      &kp Q        &kp W        &kp F                 &kp P       &kp G        &kp J       &kp L                 &kp U   &td MINUS Y   &kp BKSP
-      &kp A        &kp R   &hm LALT S            &hm LGUI T       &kp D        &kp H  &hm RGUI N            &hm RALT E         &kp I      &kp O
-&td LC(Z) Z  &td LC(X) X  &td LC(C) C           &td LC(V) V       &kp B        &kp K       &kp M  &td UNDERSCORE COMMA  &td EXCL DOT  &kp SLASH
-                                       &mt LC(LS(LALT)) SPC  &sk LSHIFT    &sk RCTRL       &to 1
+      &kp Q        &kp W        &kp F                 &kp P                    &kp G        &kp J       &kp L                 &kp U   &td MINUS Y   &kp BKSP
+      &kp A        &kp R   &hm LALT S            &hm LGUI T                    &kp D        &kp H  &hm RGUI N            &hm RALT E         &kp I      &kp O
+&td LC(Z) Z  &td LC(X) X  &td LC(C) C           &td LC(V) V                    &kp B        &kp K       &kp M  &td UNDERSCORE COMMA  &td EXCL DOT  &kp SLASH
+                                       &mt LC(LS(LALT)) SPC  &td CAPSLOCK LEFT_SHIFT    &sk RCTRL       &to 1
             >;
         };
 
@@ -68,10 +68,10 @@
 
         Numbers {
             bindings = <
-&trans       &kp E  &kp TILDE        &trans     &trans             &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans
-&trans  &kp PERIOD     &trans  &kp ASTERISK   &kp PLUS             &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans
-&trans   &kp COMMA     &trans     &kp SLASH  &kp MINUS    &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3   &to 1
-                                      &to 0     &trans             &trans            &to 3
+     &kp ESCAPE       &kp E              &kp TILDE    &kp DOLLAR  &kp PERCENT          &kp CARET  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9     &trans
+        &kp TAB  &kp PERIOD   &kp LEFT_PARENTHESIS  &kp ASTERISK     &kp PLUS          &kp EQUAL  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ENTER
+&kp EXCLAMATION   &kp COMMA  &kp RIGHT_PARENTHESIS     &kp SLASH    &kp MINUS    &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3      &to 1
+                                                           &to 0       &trans             &trans            &to 3
             >;
         };
 
