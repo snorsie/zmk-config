@@ -48,9 +48,16 @@
     combos {
         compatible = "zmk,combos";
 
-        new_combo {
-            bindings = <&kp CAPSLOCK>;
+        Layers {
+            bindings = <&tog 1>;
             key-positions = <31 32>;
+            layers = <0 1>;
+        };
+
+        Caps {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <30 33>;
+            layers = <0 1>;
         };
     };
 
@@ -59,19 +66,19 @@
 
         Alphas {
             bindings = <
-&kp Q  &kp W  &kp F      &kp P      &kp G    &kp J      &kp L      &kp U    &kp Y   &kp BSPC
-&kp A  &kp R  &kp S      &kp T      &kp D    &kp H      &kp N      &kp E    &kp I      &kp O
-&kp Z  &kp X  &kp C      &kp V      &kp B    &kp K      &kp M  &kp COMMA  &kp DOT  &kp SLASH
-                     &kp LCTRL  &kp LSHFT    &to 1  &kp SPACE
+&kp Q  &kp W  &kp F             &kp P           &kp G            &kp J      &kp L      &kp U    &kp Y  &kp SEMICOLON
+&kp A  &kp R  &kp S             &kp T           &kp D            &kp H      &kp N      &kp E    &kp I          &kp O
+&kp Z  &kp X  &kp C             &kp V           &kp B            &kp K      &kp M  &kp COMMA  &kp DOT      &kp SLASH
+                     &sk LEFT_CONTROL  &sk LEFT_SHIFT    &kp BACKSPACE  &kp SPACE
             >;
         };
 
         Symbols {
             bindings = <
- &kp N1             &kp N2     &kp N3            &kp N4             &kp N5       &kp N6          &kp N7    &kp N8           &kp N9    &kp N0
-&kp ESC  &kp DOUBLE_QUOTES   &kp SEMI  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp MINUS        &kp HOME    &kp UP          &kp END   &kp RET
-&kp TAB         &bt BT_CLR  &kp GRAVE     &kp BACKSLASH            &kp DEL    &kp EQUAL  &kp LEFT_ARROW  &kp DOWN  &kp RIGHT_ARROW  &kp BSPC
-                                              &kp LCTRL          &kp LSHFT        &to 0       &kp SPACE
+ &kp N1             &kp N2     &kp N3            &kp N4             &kp N5           &kp N6          &kp N7    &kp N8           &kp N9      &kp N0
+&kp ESC  &kp DOUBLE_QUOTES   &kp SEMI  &kp LEFT_BRACKET  &kp RIGHT_BRACKET        &kp MINUS        &kp HOME    &kp UP          &kp END     &kp RET
+&kp TAB         &bt BT_CLR  &kp GRAVE     &kp BACKSLASH       &kp LEFT_WIN        &kp EQUAL  &kp LEFT_ARROW  &kp DOWN  &kp RIGHT_ARROW  &kp DELETE
+                                       &sk LEFT_CONTROL     &sk LEFT_SHIFT    &kp BACKSPACE       &kp SPACE
             >;
         };
     };
