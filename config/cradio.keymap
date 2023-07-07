@@ -49,7 +49,7 @@
         compatible = "zmk,combos";
 
         Layer1 {
-            bindings = <&to 1>;
+            bindings = <&tog 1>;
             key-positions = <31 32>;
             layers = <0>;
         };
@@ -70,10 +70,9 @@
             key-positions = <9 19 29>;
         };
 
-        Layer2 {
-            bindings = <&to 0>;
-            key-positions = <31 32>;
-            layers = <1>;
+        new_combo {
+            bindings = <&sl 1>;
+            key-positions = <31 33>;
         };
     };
 
@@ -82,10 +81,10 @@
 
         Alphas {
             bindings = <
-&kp Q  &kp W  &kp F             &kp P           &kp G                  &kp J          &kp L      &kp U    &kp Y  &kp SEMICOLON
-&kp A  &kp R  &kp S             &kp T           &kp D                  &kp H          &kp N      &kp E    &kp I          &kp O
-&kp Z  &kp X  &kp C             &kp V           &kp B                  &kp K          &kp M  &kp COMMA  &kp DOT      &kp SLASH
-                     &sk LEFT_CONTROL  &sk LEFT_SHIFT    &td ENTER BACKSPACE  &td TAB SPACE
+&kp Q  &kp W           &kp F             &kp P           &kp G                  &kp J            &kp L            &kp U    &kp Y  &kp SEMICOLON
+&kp A  &kp R  &td LEFT_WIN S    &td LEFT_ALT T           &kp D                  &kp H  &td RIGHT_ALT N  &td RIGHT_WIN E    &kp I          &kp O
+&kp Z  &kp X           &kp C             &kp V           &kp B                  &kp K            &kp M        &kp COMMA  &kp DOT      &kp SLASH
+                              &sk LEFT_CONTROL  &sk LEFT_SHIFT    &td ENTER BACKSPACE    &td TAB SPACE
             >;
         };
 
