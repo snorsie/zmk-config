@@ -99,10 +99,10 @@
 
         Shifted {
             bindings = <
-&kp LS(N1)   &kp LS(N2)         &kp LS(N3)            &kp LS(N4)    &kp LS(N5)       &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)
-   &kp ESC  &kp LS(SQT)  &kp LS(SEMICOLON)  &kp LS(LEFT_BRACKET)  &kp LS(RBRC)    &kp LS(MINUS)    &kp HOME      &kp UP     &kp END     &kp RET
-   &kp TAB        &none      &kp LS(GRAVE)     &kp LS(BACKSLASH)  &kp LEFT_WIN    &kp LS(EQUAL)    &kp LEFT    &kp DOWN   &kp RIGHT     &kp DEL
-                                                &sk LEFT_CONTROL         &sl 1           &trans      &trans
+&kp LS(N1)             &kp LS(N2)         &kp LS(N3)            &kp LS(N4)    &kp LS(N5)       &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)
+   &kp ESC  &kp LS(DOUBLE_QUOTES)  &kp LS(SEMICOLON)  &kp LS(LEFT_BRACKET)  &kp LS(RBRC)    &kp LS(MINUS)    &kp HOME      &kp UP     &kp END     &kp RET
+   &kp TAB                  &none      &kp LS(GRAVE)     &kp LS(BACKSLASH)  &kp LEFT_WIN    &kp LS(EQUAL)    &kp LEFT    &kp DOWN   &kp RIGHT     &kp DEL
+                                                          &sk LEFT_CONTROL         &sl 1           &trans      &trans
             >;
         };
     };
