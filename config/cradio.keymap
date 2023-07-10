@@ -49,7 +49,7 @@
         compatible = "zmk,combos";
 
         Layer1 {
-            bindings = <&sl 1>;
+            bindings = <&tog 1>;
             key-positions = <31 32>;
             layers = <0 1>;
         };
@@ -72,7 +72,13 @@
 
         Shifted {
             bindings = <&sl 2>;
-            key-positions = <31 33>;
+            key-positions = <12 17>;
+            layers = <0>;
+        };
+
+        Sticky1 {
+            bindings = <&sl 1>;
+            key-positions = <13 16>;
         };
     };
 
