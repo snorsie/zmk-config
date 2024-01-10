@@ -58,7 +58,7 @@
 &kp Q  &kp W           &kp F           &kp P               &kp G    &kp J          &kp L                 &kp U            &kp Y            &kp SEMICOLON
 &kp A  &hm LEFT_WIN R  &hm LEFT_ALT S  &hm LEFT_CONTROL T  &kp D    &kp H          &hm RIGHT_CONTROL N   &hm RIGHT_ALT E  &hm RIGHT_WIN I  &kp O
 &kp Z  &kp X           &kp C           &kp V               &kp B    &kp K          &kp M                 &kp COMMA        &kp DOT          &kp SLASH
-                                       &kp LEFT_CONTROL    &to 1    &kp BACKSPACE  &td LEFT_SHIFT SPACE
+                                       &kp LEFT_CONTROL    &mo 1    &kp BACKSPACE  &td LEFT_SHIFT SPACE
             >;
         };
 
